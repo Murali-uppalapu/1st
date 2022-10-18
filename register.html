@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, nitial-scale=1">
+	<title>INPUT1</title>
+	<link rel="stylesheet"  href="navagation.css">
+	<style type="text/css">
+		body{
+			background-image: url(C:/Users/pbsc/Desktop/s1.png);
+			background-size: 70%;
+			background-repeat: no-repeat;
+		}
+		.register{
+			border: 2px solid black;
+			width: 30%;
+			background-color: lightcyan;
+			text-align: center;
+			font-size: 10px;
+			margin-left: 70%;
+
+	}	
+		.register input{
+			padding:3%;
+			margin: 2%;		
+		}
+		.submit{
+			background-color: black;
+			color: white;
+			padding: 1%;
+			width: 15%;
+			font-size: 100%;
+		}
+	</style>
+
+</head>
+<body>
+	<nav class="navbar">
+	<a href="register.html">Register</a>
+	<a href="login.html">Login</a>
+	<a href="allu_arjun_biography.html">Biography</a>
+	<a href="#">photos</a>
+	</nav>
+	<form action="login.html" class="register">
+		<h1>REGISTRATION FORM</h1>
+	<p><input type="text" placeholder="Enter Name" required /></p>
+	<p><input type="email" placeholder="Enter email id" required /></p>
+	<p><input type="password" placeholder ="Enter password" required /></p>	
+	<p><input type=" Conform password" placeholder ="conform password" required /></p>
+	<p><input type="number" placeholder="Entermobile number" required /></p>
+	<p><input type="date"/></p>
+	<p>
+		<input type="radio" value="male" name="gender" />Male
+		<input type="radio" value="female" name="gender" />Female
+	</p>
+	<select>
+	<option value="select a course">Select a course</option>
+	<option value="B com">B com</option>
+	<option value="Bsc">BSc</option>
+	</select>
+
+	<p>
+		<input value="mpc" type="checkbox"/> MPC
+		<input value="mpcs" type="checkbox"/> MPCS
+		<input value="cscs" type="checkbox"/> cscs
+	</p>
+	<p><input type="file"/></p>
+	<p>
+	<button class="submit">SUBMIT</button>
+</p>
+</form>
+</body>
+</html>
